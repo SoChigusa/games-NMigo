@@ -1,0 +1,10 @@
+Code: NMigo
+Date: 2017/09/01
+Author: So Chigusa
+Description: N * M の碁盤で囲碁をやる
+
+Source:
+- main.cpp  メイン処理統括
+- goban.cpp 碁盤管理クラス
+- menu.cpp  メニュー管理クラス
+- class.h   クラス宣言および大域変数管理

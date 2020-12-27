@@ -1,0 +1,5 @@
+NMigo : main.o
+	g++ -I/usr/local/include -L/usr/local/lib -lglfw -framework OpenGL `pkg-config --cflags --libs opencv` -o Robinson main.o saiyaku.o fight.o robinson.o feeble.o
+
+main.o : main.cpp
+	g++ -I/usr/local/include -L/usr/local/lib -lglfw -framework OpenGL `pkg-config --cflags --libs opencv` -c main.cpp

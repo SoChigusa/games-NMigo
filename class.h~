@@ -1,0 +1,7 @@
+#ifndef CLASS_H
+#define CLASS_H
+
+const int g_windowWidth  = 1280;
+const int g_windowHeight = 652;
+
+#endif
